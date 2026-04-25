@@ -25,7 +25,7 @@ import matplotlib.pyplot as plt
 from matplotlib.patches import FancyBboxPatch
 import matplotlib.patheffects as pe
 
-from config import AQI_CATEGORIES, PLOT_DPI, PLOT_BG_COLOR, PLOT_TEXT_COLOR, PLOT_ACCENT_COLORS
+from LordSinghalIsAlwaysSingle.ml.config import AQI_CATEGORIES, PLOT_DPI, PLOT_BG_COLOR, PLOT_TEXT_COLOR, PLOT_ACCENT_COLORS
 
 
 def _categorize_aqi(aqi):

@@ -15,91 +15,91 @@
       "city": "Bangalore",
       "max_yearly_avg": 134.4,
       "mean_avg": 92.8,
-      "is_good": "True"
+      "is_good": true
     },
     {
       "city": "Chennai",
       "max_yearly_avg": 134.2,
       "mean_avg": 95.3,
-      "is_good": "True"
+      "is_good": true
     },
     {
       "city": "Hyderabad",
       "max_yearly_avg": 152.3,
       "mean_avg": 109.2,
-      "is_good": "False"
+      "is_good": false
     },
     {
       "city": "Bhopal",
       "max_yearly_avg": 143.3,
       "mean_avg": 112.3,
-      "is_good": "True"
+      "is_good": true
     },
     {
       "city": "Pune",
       "max_yearly_avg": 147.5,
       "mean_avg": 113.9,
-      "is_good": "True"
+      "is_good": true
     },
     {
       "city": "Indore",
       "max_yearly_avg": 146.7,
       "mean_avg": 117.1,
-      "is_good": "True"
+      "is_good": true
     },
     {
       "city": "Mumbai",
       "max_yearly_avg": 158.3,
       "mean_avg": 117.1,
-      "is_good": "False"
+      "is_good": false
     },
     {
       "city": "Ahmedabad",
       "max_yearly_avg": 142.3,
       "mean_avg": 125.1,
-      "is_good": "True"
+      "is_good": true
     },
     {
       "city": "Guwahati",
       "max_yearly_avg": 192.0,
       "mean_avg": 127.1,
-      "is_good": "False"
+      "is_good": false
     },
     {
       "city": "Jaipur",
       "max_yearly_avg": 150.1,
       "mean_avg": 128.0,
-      "is_good": "False"
+      "is_good": false
     },
     {
       "city": "Chandigarh",
       "max_yearly_avg": 175.8,
       "mean_avg": 132.3,
-      "is_good": "False"
+      "is_good": false
     },
     {
       "city": "Kolkata",
       "max_yearly_avg": 197.4,
       "mean_avg": 133.1,
-      "is_good": "False"
+      "is_good": false
     },
     {
       "city": "Lucknow",
       "max_yearly_avg": 222.1,
       "mean_avg": 153.2,
-      "is_good": "False"
+      "is_good": false
     },
     {
       "city": "Noida",
       "max_yearly_avg": 230.5,
       "mean_avg": 173.6,
-      "is_good": "False"
+      "is_good": false
     },
     {
       "city": "Delhi",
       "max_yearly_avg": 226.4,
       "mean_avg": 180.4,
-      "is_good": "False"
+      "is_good": false
     }
   ]
 }

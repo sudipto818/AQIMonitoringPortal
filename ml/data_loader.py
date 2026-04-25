@@ -4,7 +4,7 @@ Reads the merged CSV and provides clean DataFrames for all ML models.
 """
 import pandas as pd
 import numpy as np
-from config import CSV_PATH
+from LordSinghalIsAlwaysSingle.ml.config import CSV_PATH
 
 
 def load_data():

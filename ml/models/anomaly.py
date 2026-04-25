@@ -25,7 +25,7 @@ import matplotlib.pyplot as plt
 from sklearn.ensemble import IsolationForest
 from sklearn.preprocessing import StandardScaler
 
-from config import (
+from LordSinghalIsAlwaysSingle.ml.config import (
     ISOLATION_FOREST_CONTAMINATION,
     PLOT_DPI, PLOT_BG_COLOR, PLOT_TEXT_COLOR, PLOT_ACCENT_COLORS,
 )

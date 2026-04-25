@@ -1,262 +1,188 @@
 {
   "model": "K-Means",
-  "n_clusters": 3,
+  "n_clusters": 4,
   "features_used": [
     "avg_aqi",
-    "std_aqi",
     "avg_pm25",
     "avg_pm10",
-    "avg_co",
-    "avg_no2",
-    "avg_o3",
-    "max_aqi",
-    "min_aqi",
-    "seasonal_ratio"
+    "volatility",
+    "max_spike"
   ],
   "pca_explained_variance": [
-    0.513,
-    0.2129
+    0.9559,
+    0.0281
   ],
   "clusters": [
     {
       "cluster_id": 0,
-      "cluster_name": "Clean & Stable",
+      "cluster_name": "Moderate Seasonal",
       "cities": [
         {
           "city": "Ahmedabad",
           "features": {
             "avg_aqi": 122.62,
-            "std_aqi": 33.18,
             "avg_pm25": 50.75,
-            "avg_pm10": 102.7,
-            "avg_co": 0.38,
-            "avg_no2": 16.72,
-            "avg_o3": 12.06,
-            "max_aqi": 254.0,
-            "min_aqi": 27.0,
-            "seasonal_ratio": 1.28
-          }
-        },
-        {
-          "city": "Bangalore",
-          "features": {
-            "avg_aqi": 86.72,
-            "std_aqi": 29.1,
-            "avg_pm25": 30.96,
-            "avg_pm10": 60.08,
-            "avg_co": 0.43,
-            "avg_no2": 11.36,
-            "avg_o3": 13.24,
-            "max_aqi": 216.0,
-            "min_aqi": 20.0,
-            "seasonal_ratio": 1.33
+            "avg_pm10": 102.86,
+            "volatility": 33.18,
+            "max_spike": 254.0
           }
         },
         {
           "city": "Bhopal",
           "features": {
             "avg_aqi": 107.81,
-            "std_aqi": 36.6,
             "avg_pm25": 42.81,
             "avg_pm10": 99.99,
-            "avg_co": 1.26,
-            "avg_no2": 15.2,
-            "avg_o3": 21.48,
-            "max_aqi": 229.0,
-            "min_aqi": 31.0,
-            "seasonal_ratio": 1.52
+            "volatility": 36.6,
+            "max_spike": 229.0
           }
         },
         {
           "city": "Chandigarh",
           "features": {
             "avg_aqi": 126.02,
-            "std_aqi": 45.41,
             "avg_pm25": 56.73,
             "avg_pm10": 101.03,
-            "avg_co": 0.63,
-            "avg_no2": 14.64,
-            "avg_o3": 17.03,
-            "max_aqi": 349.0,
-            "min_aqi": 36.0,
-            "seasonal_ratio": 1.48
+            "volatility": 45.41,
+            "max_spike": 349.0
           }
         },
         {
-          "city": "Chennai",
+          "city": "Indore",
           "features": {
-            "avg_aqi": 89.68,
-            "std_aqi": 31.29,
-            "avg_pm25": 32.64,
-            "avg_pm10": 59.12,
-            "avg_co": 0.62,
-            "avg_no2": 7.79,
-            "avg_o3": 10.51,
-            "max_aqi": 249.0,
-            "min_aqi": 28.0,
-            "seasonal_ratio": 1.52
-          }
-        },
-        {
-          "city": "Guwahati",
-          "features": {
-            "avg_aqi": 117.76,
-            "std_aqi": 55.09,
-            "avg_pm25": 54.96,
-            "avg_pm10": 97.38,
-            "avg_co": 0.7,
-            "avg_no2": 3.84,
-            "avg_o3": 10.65,
-            "max_aqi": 406.0,
-            "min_aqi": 10.0,
-            "seasonal_ratio": 1.75
-          }
-        },
-        {
-          "city": "Hyderabad",
-          "features": {
-            "avg_aqi": 102.89,
-            "std_aqi": 34.92,
-            "avg_pm25": 39.37,
-            "avg_pm10": 69.92,
-            "avg_co": 0.4,
-            "avg_no2": 11.49,
-            "avg_o3": 10.17,
-            "max_aqi": 246.0,
-            "min_aqi": 27.0,
-            "seasonal_ratio": 1.43
+            "avg_aqi": 111.88,
+            "avg_pm25": 44.74,
+            "avg_pm10": 97.7,
+            "volatility": 35.72,
+            "max_spike": 327.0
           }
         },
         {
           "city": "Jaipur",
           "features": {
             "avg_aqi": 124.75,
-            "std_aqi": 35.24,
             "avg_pm25": 52.73,
             "avg_pm10": 107.09,
-            "avg_co": 1.43,
-            "avg_no2": 19.89,
-            "avg_o3": 19.1,
-            "max_aqi": 324.0,
-            "min_aqi": 41.0,
-            "seasonal_ratio": 1.2
-          }
-        },
-        {
-          "city": "Kolkata",
-          "features": {
-            "avg_aqi": 123.85,
-            "std_aqi": 58.91,
-            "avg_pm25": 59.93,
-            "avg_pm10": 101.55,
-            "avg_co": 0.56,
-            "avg_no2": 14.05,
-            "avg_o3": 15.69,
-            "max_aqi": 369.0,
-            "min_aqi": 31.0,
-            "seasonal_ratio": 2.13
+            "volatility": 35.24,
+            "max_spike": 324.0
           }
         },
         {
           "city": "Mumbai",
           "features": {
             "avg_aqi": 111.04,
-            "std_aqi": 44.42,
             "avg_pm25": 49.83,
             "avg_pm10": 102.49,
-            "avg_co": 0.71,
-            "avg_no2": 14.34,
-            "avg_o3": 13.82,
-            "max_aqi": 265.0,
-            "min_aqi": 31.0,
-            "seasonal_ratio": 1.78
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": 1,
-      "cluster_name": "Moderate Seasonal",
-      "cities": [
-        {
-          "city": "Delhi",
-          "features": {
-            "avg_aqi": 173.71,
-            "std_aqi": 82.84,
-            "avg_pm25": 100.51,
-            "avg_pm10": 188.57,
-            "avg_co": 0.56,
-            "avg_no2": 22.22,
-            "avg_o3": 16.06,
-            "max_aqi": 684.0,
-            "min_aqi": 36.0,
-            "seasonal_ratio": 1.72
-          }
-        },
-        {
-          "city": "Lucknow",
-          "features": {
-            "avg_aqi": 143.24,
-            "std_aqi": 60.87,
-            "avg_pm25": 72.14,
-            "avg_pm10": 136.35,
-            "avg_co": 1.1,
-            "avg_no2": 14.75,
-            "avg_o3": 15.14,
-            "max_aqi": 527.0,
-            "min_aqi": 40.0,
-            "seasonal_ratio": 1.51
-          }
-        },
-        {
-          "city": "Noida",
-          "features": {
-            "avg_aqi": 165.35,
-            "std_aqi": 84.08,
-            "avg_pm25": 91.84,
-            "avg_pm10": 184.11,
-            "avg_co": 1.24,
-            "avg_no2": 23.22,
-            "avg_o3": 17.07,
-            "max_aqi": 733.0,
-            "min_aqi": 24.0,
-            "seasonal_ratio": 1.66
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": 2,
-      "cluster_name": "High Pollution",
-      "cities": [
-        {
-          "city": "Indore",
-          "features": {
-            "avg_aqi": 111.88,
-            "std_aqi": 35.72,
-            "avg_pm25": 44.74,
-            "avg_pm10": 97.7,
-            "avg_co": 7.45,
-            "avg_no2": 16.1,
-            "avg_o3": 18.79,
-            "max_aqi": 327.0,
-            "min_aqi": 26.0,
-            "seasonal_ratio": 1.42
+            "volatility": 44.42,
+            "max_spike": 265.0
           }
         },
         {
           "city": "Pune",
           "features": {
             "avg_aqi": 109.05,
-            "std_aqi": 43.03,
             "avg_pm25": 44.44,
             "avg_pm10": 102.69,
-            "avg_co": 3.46,
-            "avg_no2": 44.03,
-            "avg_o3": 23.86,
-            "max_aqi": 291.0,
-            "min_aqi": 8.0,
-            "seasonal_ratio": 1.66
+            "volatility": 43.03,
+            "max_spike": 291.0
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": 2,
+      "cluster_name": "Clean & Stable",
+      "cities": [
+        {
+          "city": "Bangalore",
+          "features": {
+            "avg_aqi": 86.72,
+            "avg_pm25": 30.96,
+            "avg_pm10": 60.08,
+            "volatility": 29.1,
+            "max_spike": 216.0
+          }
+        },
+        {
+          "city": "Chennai",
+          "features": {
+            "avg_aqi": 89.68,
+            "avg_pm25": 32.64,
+            "avg_pm10": 59.12,
+            "volatility": 31.29,
+            "max_spike": 249.0
+          }
+        },
+        {
+          "city": "Hyderabad",
+          "features": {
+            "avg_aqi": 102.89,
+            "avg_pm25": 39.37,
+            "avg_pm10": 69.92,
+            "volatility": 34.92,
+            "max_spike": 246.0
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": 1,
+      "cluster_name": "Severe/Volatile",
+      "cities": [
+        {
+          "city": "Delhi",
+          "features": {
+            "avg_aqi": 173.71,
+            "avg_pm25": 100.51,
+            "avg_pm10": 188.57,
+            "volatility": 82.84,
+            "max_spike": 684.0
+          }
+        },
+        {
+          "city": "Noida",
+          "features": {
+            "avg_aqi": 165.35,
+            "avg_pm25": 91.84,
+            "avg_pm10": 184.11,
+            "volatility": 84.08,
+            "max_spike": 733.0
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": 3,
+      "cluster_name": "High Pollution",
+      "cities": [
+        {
+          "city": "Guwahati",
+          "features": {
+            "avg_aqi": 117.76,
+            "avg_pm25": 54.96,
+            "avg_pm10": 97.38,
+            "volatility": 55.09,
+            "max_spike": 406.0
+          }
+        },
+        {
+          "city": "Kolkata",
+          "features": {
+            "avg_aqi": 123.85,
+            "avg_pm25": 59.93,
+            "avg_pm10": 101.55,
+            "volatility": 58.91,
+            "max_spike": 369.0
+          }
+        },
+        {
+          "city": "Lucknow",
+          "features": {
+            "avg_aqi": 143.24,
+            "avg_pm25": 72.14,
+            "avg_pm10": 136.35,
+            "volatility": 60.87,
+            "max_spike": 527.0
           }
         }
       ]

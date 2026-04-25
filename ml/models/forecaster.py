@@ -46,7 +46,7 @@ except ImportError:
 
 from statsmodels.tsa.holtwinters import ExponentialSmoothing
 
-from config import (
+from LordSinghalIsAlwaysSingle.ml.config import (
     LSTM_LOOKBACK, LSTM_EPOCHS, LSTM_BATCH_SIZE, LSTM_FORECAST_DAYS,
     PLOT_DPI, PLOT_BG_COLOR, PLOT_TEXT_COLOR, PLOT_ACCENT_COLORS,
 )

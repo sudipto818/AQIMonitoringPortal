@@ -35,7 +35,7 @@ warnings.filterwarnings("ignore")
 # Add project root to path
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-from config import (
+from LordSinghalIsAlwaysSingle.ml.config import (
     CSV_PATH, OUTPUT_DIR, QUERY_TITLES, QUERY_ML_TYPE,
     PLOT_DPI, PLOT_BG_COLOR, PLOT_TEXT_COLOR, PLOT_ACCENT_COLORS,
     AQI_CATEGORIES,
