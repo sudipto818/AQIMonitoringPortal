@@ -107,7 +107,7 @@ def main():
     for entries in aqi_raw_by_year.values():
         monthly_aqi.update(compute_monthly_aqi(entries))
 
-    output_file = f"{CITY.lower().replace(' ', '_')}_aqi_2021_2026.csv"
+    output_file = f"{CITY.lower().replace(' ', '_')}_aqi_data_2021_2026.csv"
 
     with open(output_file, "w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
