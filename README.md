@@ -24,7 +24,7 @@ This project aims to develop a web portal for exploring historical Air Quality I
 
 ---
 
-## 📥 2. Data Collection & Dataset Generation
+## 📥 2. Data Collection
 
 ### 📊 Dataset Overview
 The data for this project has been fetched from the aqi.in website and the OpenAQ website. First the data for all the cities was fetched from aqi.in and then the NULL values were filled using the data from the OpenAQ website. The data fetched for this project has been placed in the csv folder inside the data folder. All the data for individual cities have been placed inside the individual_csv subfolder of the csv folder and the entire final dataset built using the data_handling.py has been saved in the final_merged_aqi_data.csv inside the merged subfolder of the csv folder. These data are already available and if it is needed to fetch the data again, the process is explained below.
